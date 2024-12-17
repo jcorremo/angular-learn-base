@@ -12,16 +12,15 @@ export class AddComponent {
   onNewCharacter: EventEmitter<Character> = new EventEmitter();
 
   public character: Character = {
-    id: 0,
+    id: '',
     name: '',
     power: 0,
   };
 
   public add(): void {
-    console.log(this.character);
     if (this.character.name.length === 0) return;
     this.onNewCharacter.emit({ ...this.character });
-    this.character = { id: 0, name: '', power: 0 };
+    this.character = { id: '', name: '', power: 0 };
   }
 
 }
