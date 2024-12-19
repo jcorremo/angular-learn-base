@@ -2,5 +2,8 @@
 type="text"
 class="form-control"
 [placeholder]="placeholder"
+[value]="value"
 (keyup.enter)="this.emitValue(txtSearch.value)"
-#txtSearch>
+(keyup)="this.onkeyPress(txtSearch.value)"
+#txtSearch
+>

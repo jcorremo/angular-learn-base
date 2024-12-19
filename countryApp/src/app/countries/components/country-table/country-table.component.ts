@@ -1,5 +1,5 @@
 import { ChangeDetectionStrategy, Component, Input } from '@angular/core';
-import { Country } from '../../interfaces/countries.interface';
+import { Country } from '../../interfaces/country.interface';
 
 @Component({
   selector: 'countries-country-table',
