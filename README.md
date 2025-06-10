@@ -1,29 +1,13 @@
-<!-- 1) Badges (centered) -->
-<p align="center">
-  <!-- GitHub Actions build -->
-  <a href="https://github.com/yourorg/yourrepo/actions">
-    <img alt="Build Status" src="📁">
-  </a>
-  <!-- Code coverage / quality -->
-  <a href="https://goreportcard.com/report/github.com/yourorg/yourrepo">
-    <img alt="Go Report Card" src="https://goreportcard.com/badge/github.com/yourorg/yourrepo">
-  </a>
-  <!-- Latest release -->
-  <a href="https://github.com/yourorg/yourrepo/releases/latest">
-    <img alt="Release" src="https://img.shields.io/github/v/release/yourorg/yourrepo">
-  </a>
-</p>
-
 # Aplazo Merchant Hub Microservice
 
 This project is a Java microservice for merchant management on the Aplazo platform. It uses Maven as the build system and is organized into client and service submodules.
 
 <p align="center">
-  <a href="#project-structure">📁 Root Structure</a> |
-  <a href="#requirements">📋 Requirements</a> |
-  <a href="#installation-and-execution">⚙️ Installation</a> |
-  <a href="#testing-the-endpoints">🧪 Testing</a> |  
-  <a href="#architecture">🔗 Architecture</a> |
+  <a href="#project-structure">📁 Root Structure</a> |    
+  <a href="#requirements">📋 Requirements</a> |    
+  <a href="#installation-and-execution">⚙️ Installation</a> |    
+  <a href="#testing-the-endpoints">🧪 Testing</a> |    
+  <a href="#architecture">🔗 Architecture</a> |    
 </p>
 
 ## Project Structure
