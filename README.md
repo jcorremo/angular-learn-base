@@ -2,11 +2,15 @@
 
 This project is a Java microservice for merchant management on the Aplazo platform. It uses Maven as the build system and is organized into client and service submodules.
 
-1. [📁 Root Structure](#project-structure)
-2. [📋 Requirements](#requirements)
-3. [⚙️ Installation](#installation-and-execution)
-4. [🧪 Testing](#testing-the-endpoints)
-5. [🔗 Architecture](#architecture)
+1. 📂 [Project Structure](#project-structure)  
+2. 🏛️ [Architecture](#architecture)  
+3. 📋 [Requirements](#requirements)  
+4. 🚀 [Installation and Execution](#installation-and-execution)  
+5. 🔍 [Testing the Endpoints](#testing-the-endpoints)  
+6. 🧪 [Unit Tests](#unit-tests)  
+7. 🐳 [Deployment with Docker](#deployment-with-docker)  
+8. 🔧 [Configuration](#configuration)  
+9. ✉️ [Contact](#contact)  
 
 ## Project Structure
 
@@ -15,6 +19,10 @@ This project is a Java microservice for merchant management on the Aplazo platfo
 - `jenkins/`: CI/CD configuration files.
 - `Dockerfile`: Used to build the Docker image for the microservice.
 - `pom.xml`: Main Maven configuration file.
+
+
+## Architecture
+
 
 ## Requirements
 
@@ -66,10 +74,6 @@ Example header:
 ```
 x-authorization: algorithm=rsasha256,keyVersion=1,method=GET,signature=h/erQyoIsIt2jlunlR6BI5LI2CvLwk9A0ljM4lrybyrnkLDwf0EHEg2UWrwaxEVdzlag6fu5vvdxUkLfCIry1q4o92fN8VNj+vJPIgTQ1t2qiZeL+iaXgMbT9TedkVNabvu7OtUlKkox/A2k1J8HDMtyAgttUJpqfPxFk+OV8tW0/Q70pJ6Pw/NXfFKtYoxDGSH0lmXU3Z9oRDP4hLVZE1zxtyu0v9L1iUELR430YGnQx6+tu9ympK7qZ03wasirqTTfC89yRyS2vZac43BlqjS8xt2QQHJ6E/qdy80Ax3ODGs4jA3H3GZhLZN7WaQJHya1cu72QjcgNHgkMBA0AlQ==,timestamp=1748362717743
 ```
-
-## Architecture
-
-
 
 ## Unit Tests
 
