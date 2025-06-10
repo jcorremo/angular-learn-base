@@ -10,8 +10,6 @@ This project is a Java microservice for merchant management on the Aplazo platfo
   <a href="#architecture">🔗 Architecture</a> |
 </p>
 
----
-
 ## Project Structure
 
 - `java.aplazo-merchant-hub-ms-client/`: Client module for communication with the microservice.
