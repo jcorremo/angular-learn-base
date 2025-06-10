@@ -2,17 +2,11 @@
 
 This project is a Java microservice for merchant management on the Aplazo platform. It uses Maven as the build system and is organized into client and service submodules.
 
-<p align="center">
-  <a href="#project-structure">📁 Root Structure</a>
-  </br>
-  <a href="#requirements">📋 Requirements</a>
-  </br>
-  <a href="#installation-and-execution">⚙️ Installation</a>
-  </br>
-  <a href="#testing-the-endpoints">🧪 Testing</a>
-  </br>
-  <a href="#architecture">🔗 Architecture</a>
-</p>
+1. [📁 Root Structure](#project-structure)
+2. [📋 Requirements](#requirements)
+3. [⚙️ Installation](#installation-and-execution)
+4. [🧪 Testing](#testing-the-endpoints)
+5. [🔗 Architecture](#architecture)
 
 ## Project Structure
 
