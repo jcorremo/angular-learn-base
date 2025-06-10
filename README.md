@@ -77,13 +77,10 @@ java.mx.aplazo.microservices.merchant.hub
 
 ### Architecture References
 - Alistair Cockburn, “Hexagonal Architecture (aka Ports & Adapters)” (2005)  
-   https://alistair.cockburn.us/hexagonal-architecture
+   [(Hexagonal Architecture)](https://alistair.cockburn.us/hexagonal-architecture)
 
 - Robert C. Martin, *Clean Architecture*, Chapter 4: “Ports and Adapters”  
-   (Clean Architecture book by Robert C. Martin)
-
-- Vaughn Vernon, *Implementing Domain-Driven Design*, Section on Hexagonal  
-   (Ports & Adapters chapter in his DDD book)
+   [(Clean Architecture book by Robert C. Martin)](https://agorism.dev/book/software-architecture/%28Robert%20C.%20Martin%20Series%29%20Robert%20C.%20Martin%20-%20Clean%20Architecture_%20A%20Craftsman%E2%80%99s%20Guide%20to%20Software%20Structure%20and%20Design-Prentice%20Hall%20%282017%29.pdf)
 
 - Baeldung blog posts on Hexagonal Architecture in Java  
    [(Hexagonal Architecture”)](https://www.baeldung.com/hexagonal-architecture-ddd-spring)
