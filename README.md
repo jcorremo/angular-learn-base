@@ -23,6 +23,8 @@ This project is a Java microservice for merchant management on the Aplazo platfo
 
 ## Architecture
 
+Hexagonal Architecture—introduced by Alistair Cockburn in 2005 and often called “Ports & Adapters”—organizes your code around a pure domain core that knows nothing of the outside world. All interactions with external systems (databases, HTTP, messaging, UIs) go through well-defined **ports** (interfaces), while **adapters** provide the actual implementation wiring. Inbound adapters (e.g. REST controllers or message listeners) drive your application by calling its inbound ports, and outbound adapters (e.g. JPA repositories or HTTP clients) fulfill the core’s outbound port contracts. This separation keeps business logic framework-agnostic, highly testable, and ready to evolve without ripple effects into unrelated layers.
+
 ### Package Definitions
 
 - **common/config**  
