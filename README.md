@@ -23,8 +23,27 @@ This project is a Java microservice for merchant management on the Aplazo platfo
 
 ## Architecture
 
+### Package Definitions
+
+- **common/config**  
+   Spring (or other framework) configuration beans, property classes, security setup, cross-cutting filters.
+
+- **common/util**  
+   Shared utility classes: encryption helpers, date/time utilities, custom exceptions, common DTOs.
+
+- **<feature>/domain**  
+   - Entities & Value Objects: core business models and invariants  
+   - Ports: interfaces defining inbound and outbound operations (no framework dependencies)
+
+- **<feature>/application**  
+   Use-Case Services: implement inbound ports, orchestrate domain logic and calls to outbound ports.
+
+- **<feature>/infrastructure**  
+   - **in**: Inbound Adapters—REST Controllers, message listeners, CLI handlers (glue between external triggers and inbound ports)  
+   - **out**: Outbound Adapters—JPA repositories, HTTP clients, messaging publishers (implement outbound ports to communicate with external systems)
+
 ```text
-com.example.app
+java.mx.aplazo.microservices.merchant.hub
 │
 ├── common               <- Common resources
 │   ├── config             <- Spring beans, properties classes, security setup…
