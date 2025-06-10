@@ -42,6 +42,8 @@ This project is a Java microservice for merchant management on the Aplazo platfo
    - **in**: Inbound Adapters—REST Controllers, message listeners, CLI handlers (glue between external triggers and inbound ports)  
    - **out**: Outbound Adapters—JPA repositories, HTTP clients, messaging publishers (implement outbound ports to communicate with external systems)
 
+### Package Structure
+
 ```text
 java.mx.aplazo.microservices.merchant.hub
 │
@@ -70,6 +72,22 @@ java.mx.aplazo.microservices.merchant.hub
         ├── in
         └── out
 ```
+
+### Architecture References
+- Alistair Cockburn, “Hexagonal Architecture (aka Ports & Adapters)” (2005)  
+   https://alistair.cockburn.us/hexagonal-architecture
+
+- Robert C. Martin, *Clean Architecture*, Chapter 4: “Ports and Adapters”  
+   (Clean Architecture book by Robert C. Martin)
+
+- Vaughn Vernon, *Implementing Domain-Driven Design*, Section on Hexagonal  
+   (Ports & Adapters chapter in his DDD book)
+
+- Baeldung blog posts on Hexagonal Architecture in Java  
+   [(Hexagonal Architecture”)](https://www.baeldung.com/hexagonal-architecture-ddd-spring)
+
+- Medium articles with concrete Java examples of Ports & Adapters  
+   [(“Hexagonal Architecture Java example”)](https://medium.com/@oliveraluis11/arquitectura-hexagonal-con-spring-boot-parte-1-57b797eca69c)
 
 ## Requirements
 
