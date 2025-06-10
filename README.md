@@ -23,6 +23,34 @@ This project is a Java microservice for merchant management on the Aplazo platfo
 
 ## Architecture
 
+```text
+com.example.app
+│
+├── common               <- Common resources
+│   ├── config             <- Spring beans, properties classes, security setup…
+│   └── util               <- encryption utils, date helpers, custom exceptions…
+│
+├── customer             <- feature for Customer
+│   ├── domain             <- entities, value objects, port interfaces
+│   ├── application        <- services/use-cases (implement inbound ports)
+│   └── infrastructure     <- adapters (implements ports, wiring & config)
+│       ├── in                <- controllers, message listeners (inbound adapters)
+│       └── out               <- JPA repos, REST clients, message publishers
+│
+├── payment              <- feature for Payment
+│   ├── domain
+│   ├── application
+│   └── infrastructure
+│       ├── in
+│       └── out
+│
+└── refund               <- another domain.
+    ├── domain
+    ├── application
+    └── infrastructure
+        ├── in
+        └── out
+```
 
 ## Requirements
 
